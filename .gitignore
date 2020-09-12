@@ -1,0 +1,70 @@
+
+# Created by https://www.toptal.com/developers/gitignore/api/homeassistant
+# Edit at https://www.toptal.com/developers/gitignore?templates=homeassistant
+
+### HomeAssistant ###
+# You can whitelist files/folders with !, these will not be ignored.
+!*.yaml
+!.gitignore
+!*.md
+!.gitkeep
+
+# Comment these 2 lines if you don't want to include your SSH keys
+.ssh/
+id_rsa*
+
+# Comment this if you don't want to include your Node-RED flows.
+# This is only valid if you install Node-RED as Home Assistant Add-on
+!node-red/
+
+
+# Uncomment this if you don' want to include secrets.yaml 
+secrets.yaml
+
+# Ignore these files/folders
+.storage
+.cloud
+.google.token 
+
+# Files with personal details
+*.log
+*.conf
+*.json
+*.pyc
+*.gz
+*.js
+*.backup
+*.crt
+*.csr
+*.key
+.google.token
+.uuid
+icloud/
+google_calendars.yaml
+harmony_media_room.conf
+home-assistant.db
+home-assistant_v2.db
+home-assistant_v2.db-*
+ip_bans.yaml
+known_devices.yaml
+pyozw.sqlite
+
+
+# Temporary files
+*.db-journal
+*.pid
+tts
+
+# automatically downloaded dependencies
+deps
+lib
+www
+
+# Log files
+home-assistant.log
+ozw_log.txt
+
+# Development files
+custom_components/
+
+# End of https://www.toptal.com/developers/gitignore/api/homeassistant
