@@ -8,14 +8,14 @@
 !.gitignore
 !*.md
 !.gitkeep
-
+!manifest.*
 # Comment these 2 lines if you don't want to include your SSH keys
 .ssh/
 id_rsa*
 
 # Comment this if you don't want to include your Node-RED flows.
 # This is only valid if you install Node-RED as Home Assistant Add-on
-!node-red/
+node-red/
 
 
 # Uncomment this if you don' want to include secrets.yaml 
@@ -29,7 +29,7 @@ secrets.yaml
 # Files with personal details
 *.log
 *.conf
-*.json
+
 *.pyc
 *.gz
 *.js
@@ -65,6 +65,7 @@ home-assistant.log
 ozw_log.txt
 
 # Development files
-custom_components/
+!custom_components/
 
 # End of https://www.toptal.com/developers/gitignore/api/homeassistant
+esphome/.esphome/esphome.json
