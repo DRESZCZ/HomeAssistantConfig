@@ -22,7 +22,7 @@ This repo is validated by Travis CI
 
 Lines of yaml code in my configuration (excluding secrets): 
 
-Number of entities: 54
+Number of entities: 60
 
 Type | Qty
 -- | --
@@ -41,10 +41,10 @@ Media Player | 1
 Person | 1
 Scene | 0
 Script | 0
-Sensor | 41
+Sensor | 46
 Sun | 1
 Switch | 0
-Weather | 1
+Weather | 2
 Zone | 1
 
 ***
@@ -52,6 +52,7 @@ Zone | 1
 ## HACS installed components
 
 ### Integrations
+- [Authenticated](https://github.com/custom-components/authenticated)
 - [HACS](https://github.com/hacs/integration)
 - [Readme](https://github.com/custom-components/readme)
 
