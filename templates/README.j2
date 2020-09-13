@@ -57,6 +57,16 @@ Zone | {{ states.zone | count }}
 - [{{component.name}}]({{component.documentation}})
 {%- endfor %}
 
+### NetDaemon
+{%- for component in hacs_components | selectattr('category', 'equalto', 'netdaemon') | sort(attribute='name') %}
+- [{{component.name}}]({{component.documentation}})
+{%- endfor %}
+
+### Appdaemon
+{%- for component in hacs_components | selectattr('category', 'equalto', 'appdaemon') | sort(attribute='name') %}
+- [{{component.name}}]({{component.documentation}})
+{%- endfor %}
+
 ### Lovelace
 {%- for component in hacs_components | selectattr('category', 'equalto', 'plugin') | sort(attribute='name') %}
 - [{{component.name}}]({{component.documentation}})

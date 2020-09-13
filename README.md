@@ -56,6 +56,11 @@ Zone | 1
 - [HACS](https://github.com/hacs/integration)
 - [Readme](https://github.com/custom-components/readme)
 
+### NetDaemon
+- [Hacs Update Notifications](https://github.com/hacs/ND-NotifyUpdates)
+
+### Appdaemon
+
 ### Lovelace
 - [Card Mod](https://github.com/thomasloven/lovelace-card-mod)
 - [Mini Graph Card](https://github.com/kalkih/mini-graph-card)
