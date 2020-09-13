@@ -57,6 +57,7 @@ Zone | 1
 - [Readme](https://github.com/custom-components/readme)
 
 ### Lovelace
+- [Card Mod](https://github.com/thomasloven/lovelace-card-mod)
 - [Mini Graph Card](https://github.com/kalkih/mini-graph-card)
 - [Weather Card](https://github.com/bramkragten/weather-card)
 
