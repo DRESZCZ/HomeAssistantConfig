@@ -22,7 +22,7 @@ This repo is validated by Travis CI
 
 Lines of yaml code in my configuration (excluding secrets): 
 
-Number of entities: 60
+Number of entities: 105
 
 Type | Qty
 -- | --
@@ -41,9 +41,9 @@ Media Player | 1
 Person | 1
 Scene | 0
 Script | 0
-Sensor | 46
+Sensor | 85
 Sun | 1
-Switch | 0
+Switch | 6
 Weather | 2
 Zone | 1
 
@@ -57,6 +57,7 @@ Zone | 1
 - [Readme](https://github.com/custom-components/readme)
 
 ### Lovelace
+- [Mini Graph Card](https://github.com/kalkih/mini-graph-card)
 - [Weather Card](https://github.com/bramkragten/weather-card)
 
 ***
