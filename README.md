@@ -22,14 +22,14 @@ This repo is validated by Travis CI
 
 Lines of yaml code in my configuration (excluding secrets): 357
 
-Number of entities: 105
+Number of entities: 107
 
 Type | Qty
 -- | --
 Alarm Control Panel | 0
 Alert | 0
 Automation | 1
-Binary Sensor | 5
+Binary Sensor | 6
 Camera | 0
 Device Tracker | 2
 Group | 0
@@ -41,7 +41,7 @@ Media Player | 1
 Person | 1
 Scene | 0
 Script | 0
-Sensor | 85
+Sensor | 86
 Sun | 1
 Switch | 6
 Weather | 2
@@ -60,6 +60,8 @@ Zone | 1
 - [Card Mod](https://github.com/thomasloven/lovelace-card-mod)
 - [Mini Graph Card](https://github.com/kalkih/mini-graph-card)
 - [Weather Card](https://github.com/bramkragten/weather-card)
+
+### Themes
 
 ***
 

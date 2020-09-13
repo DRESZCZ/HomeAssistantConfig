@@ -62,6 +62,11 @@ Zone | {{ states.zone | count }}
 - [{{component.name}}]({{component.documentation}})
 {%- endfor %}
 
+### Themes
+{%- for component in hacs_components | selectattr('category', 'equalto', 'theme') | sort(attribute='name') %}
+- [{{component.name}}]({{component.documentation}})
+{%- endfor %}
+
 ***
 
 
