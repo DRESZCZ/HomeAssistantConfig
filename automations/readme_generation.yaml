@@ -1,0 +1,10 @@
+id: '1600030377157'
+alias: Generate readme
+description: Generate readme
+trigger:
+- event: start
+  platform: homeassistant
+condition: []
+action:
+  service: readme.generate
+mode: single
