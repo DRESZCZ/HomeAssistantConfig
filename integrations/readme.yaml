@@ -1,0 +1,6 @@
+#####
+# Generate readme. Use Jinja and data from Home Assistant to generate your README.md file
+# https://github.com/custom-components/readme
+#####
+
+readme:
