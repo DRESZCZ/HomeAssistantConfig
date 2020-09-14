@@ -22,7 +22,7 @@ This repo is validated by Travis CI
 
 Lines of yaml code in my configuration (excluding secrets): 357
 
-Number of entities: 158
+Number of entities: 165
 
 Type | Qty
 -- | --
@@ -41,9 +41,9 @@ Media Player | 1
 Person | 1
 Scene | 0
 Script | 0
-Sensor | 114
+Sensor | 120
 Sun | 1
-Switch | 11
+Switch | 12
 Weather | 2
 Zone | 1
 
