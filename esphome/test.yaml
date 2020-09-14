@@ -4,13 +4,13 @@ esphome:
   board: esp01_1m
 
 wifi:
-  ssid: "wifissid"
-  password: "wifipassword"
+  ssid: !secret wifi_ssid
+  password: !secret wifi_psk
 
   # Enable fallback hotspot (captive portal) in case wifi connection fails
   ap:
     ssid: "Test Fallback Hotspot"
-    password: "Hotspot"
+    password: !secret api_hotspot
 
 captive_portal:
 
@@ -19,7 +19,7 @@ logger:
 
 # Enable Home Assistant API
 api:
-  password: "accesspassword"
+  password: !secret api_psk
 
 ota:
-  password: "accesspassword"
+  password: !secret ota_psk
