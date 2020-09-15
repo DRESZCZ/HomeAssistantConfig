@@ -20,16 +20,16 @@ This repo is validated by Travis CI
 
 ## Some statistics about my installation:
 
-Lines of yaml code in my configuration (excluding secrets): 357
+Lines of yaml code in my configuration (excluding secrets): 358
 
-Number of entities: 165
+Number of entities: 163
 
 Type | Qty
 -- | --
 Alarm Control Panel | 0
 Alert | 0
 Automation | 1
-Binary Sensor | 14
+Binary Sensor | 13
 Camera | 0
 Device Tracker | 1
 Group | 0
@@ -41,7 +41,7 @@ Media Player | 1
 Person | 1
 Scene | 0
 Script | 0
-Sensor | 120
+Sensor | 119
 Sun | 1
 Switch | 12
 Weather | 2
