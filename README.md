@@ -22,14 +22,14 @@ This repo is validated by Travis CI
 
 Lines of yaml code in my configuration (excluding secrets): 358
 
-Number of entities: 168
+Number of entities: 171
 
 Type | Qty
 -- | --
 Alarm Control Panel | 0
 Alert | 0
 Automation | 1
-Binary Sensor | 13
+Binary Sensor | 14
 Camera | 0
 Device Tracker | 1
 Group | 0
@@ -41,7 +41,7 @@ Media Player | 1
 Person | 1
 Scene | 0
 Script | 0
-Sensor | 120
+Sensor | 122
 Sun | 1
 Switch | 14
 Weather | 2
