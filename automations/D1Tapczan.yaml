@@ -1,0 +1,17 @@
+ id: '1600681527014'
+ alias: D1 Tapczan
+ description: ''
+ trigger:
+ - platform: device
+   domain: mqtt
+   device_id: ebf784c5fbeb11ea8870e13d1320596a
+   type: click
+   subtype: single
+   discovery_id: 0x00158d0003057cbb click_single
+ condition: []
+ action:
+ - type: toggle
+   device_id: 3cec441442884977b68c2cdfcb5c5b11
+   entity_id: light.tapczan_light
+   domain: light
+ mode: single
