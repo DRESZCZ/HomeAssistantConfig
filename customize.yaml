@@ -1,4 +1,14 @@
-#####
-# Customizing entities
-#   https://www.home-assistant.io/docs/configuration/customizing-devices/
-#####
+binary_sensor.burze_dzis_net_storms_nearby:
+  friendly_name: Burze w pobliżu
+binary_sensor.burze_dzis_net_storm_warning:
+  friendly_name: Ostrzeżenie - Burza
+binary_sensor.burze_dzis_net_frost_warning:
+  friendly_name: Ostrzeżenie - Mróz
+binary_sensor.burze_dzis_net_precipitation_warning:
+  friendly_name: Ostrzeżenie - Opad
+binary_sensor.burze_dzis_net_tornado_warning:
+  friendly_name: Ostrzeżenie - Trąba
+binary_sensor.burze_dzis_net_heat_warning:
+  friendly_name: Ostrzeżenie - Upał
+binary_sensor.burze_dzis_net_wind_warning:
+  friendly_name: Ostrzeżenie - Wiatr
