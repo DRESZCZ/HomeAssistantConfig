@@ -20,16 +20,16 @@ This repo is validated by Travis CI
 
 ## Some statistics about my installation:
 
-Lines of yaml code in my configuration (excluding secrets): 375
+Lines of yaml code in my configuration (excluding secrets): 429
 
-Number of entities: 261
+Number of entities: 269
 
 Type | Qty
 -- | --
 Alarm Control Panel | 0
 Alert | 0
 Automation | 2
-Binary Sensor | 21
+Binary Sensor | 30
 Camera | 0
 Device Tracker | 1
 Group | 0
@@ -41,7 +41,7 @@ Media Player | 2
 Person | 1
 Scene | 0
 Script | 0
-Sensor | 199
+Sensor | 198
 Sun | 1
 Switch | 16
 Weather | 2
@@ -53,6 +53,7 @@ Zone | 1
 
 ### Integrations
 - [Authenticated](https://github.com/custom-components/authenticated)
+- [Burze.Dzis.Net Sensor](https://github.com/PiotrMachowski/Home-Assistant-custom-components-Burze.dzis.net)
 - [HACS](https://github.com/hacs/integration)
 - [Readme](https://github.com/custom-components/readme)
 
