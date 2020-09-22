@@ -1,0 +1,11 @@
+platform: burze_dzis_net
+api_key: 937fadd798f50f1d7a839d7fbdf15c3e664d7bb7
+warnings:
+  - frost_warning
+  - heat_warning
+  - wind_warning
+  - precipitation_warning
+  - storm_warning
+  - tornado_warning
+storms_nearby:
+  radius: 30
