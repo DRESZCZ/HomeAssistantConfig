@@ -1,0 +1,8 @@
+#####
+# With this sensor platform, you will be able to integrate the test
+# build results reported by Travis-CI working within Home Assistant.
+# https://www.home-assistant.io/integrations/travisci
+#####
+
+platform: travisci
+api_key: !secret TravisCI_key
