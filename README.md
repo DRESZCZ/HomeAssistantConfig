@@ -29,7 +29,7 @@ Type | Qty
 Alarm Control Panel | 0
 Alert | 0
 Automation | 2
-Binary Sensor | 31
+Binary Sensor | 33
 Camera | 0
 Device Tracker | 1
 Group | 0
@@ -41,7 +41,7 @@ Media Player | 2
 Person | 1
 Scene | 0
 Script | 0
-Sensor | 205
+Sensor | 203
 Sun | 1
 Switch | 16
 Weather | 2
