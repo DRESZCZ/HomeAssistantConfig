@@ -29,9 +29,9 @@ Type | Qty
 Alarm Control Panel | 0
 Alert | 0
 Automation | 2
-Binary Sensor | 33
+Binary Sensor | 32
 Camera | 0
-Device Tracker | 1
+Device Tracker | 2
 Group | 0
 Input Boolean | 0
 Input Datetime | 0
